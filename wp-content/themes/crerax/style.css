@@ -1316,6 +1316,7 @@ footer{
 	}
 	button#responsive-menu-button{
 		top: 80px !important;
+		position: absolute !important;
 	}
 	.entry .entry-content .all-products ul li{
 		width: 100%;
@@ -1343,8 +1344,29 @@ footer{
 	.entry .entry-content .recent-news{
 		display: block;
 	}
-	.entry .entry-content .recent-news::after{
+	.entry .entry-content .recent-news::after, .entry .entry-content .recent-news .red-circle{
 		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	header .site-branding-container{
+		padding: 0 10px;
+	}
+	.home header .header-desc h2{
+		font-size: 30px;
+	}
+	.home .entry .entry-content, .entry .entry-summary, .container, .entry .entry-content{
+		padding: 30px 30px;
+	}
+	button#responsive-menu-button{
+		top: 60px !important;
+	}
+	.home header .site-branding-container .header-desc .obj-red{
+		display: none;
+	}
+	.entry .entry-content .all-products{
+		margin-bottom: 50px;
 	}
 }
 @media only screen and (min-width: 768px){

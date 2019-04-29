@@ -28,7 +28,7 @@
 				<!-- Single post header wrapper start -->
 				<div class="single-header-wrapper">
 			<?php endif; ?>
-			<div class="header-container">
+			<div class="header-container site_header">
 				<div class="site-branding-container">
 					<?php //get_template_part( 'template-parts/header/site', 'branding' ); ?>
 					<?php if ( has_custom_logo() ) : ?>
